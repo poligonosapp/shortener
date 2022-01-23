@@ -1,0 +1,28 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "web hook  shortener",
+  "main": "webhook.js",
+  "scripts": {
+    "start": "start",
+    "build": "build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poligonosapp/shortener.git"
+  },
+  "author": "Fabio Rodrigues https://www.facebook.com/kefaro, Luis Mendes machadoluismendes@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/poligonosapp/shortener/issues"
+  },
+  "homepage": "https://github.com/poligonosapp/shortener#readme",
+  "dependencies": {
+    "@slack/webhook": "^6.1.0",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "ava": "^4.0.1"
+  }
+}
