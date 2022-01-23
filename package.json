@@ -20,6 +20,7 @@
   "homepage": "https://github.com/poligonosapp/shortener#readme",
   "dependencies": {
     "@slack/webhook": "^6.1.0",
+    "heroku-client": "^3.1.0",
     "nanoid": "^3.2.0"
   },
   "devDependencies": {
